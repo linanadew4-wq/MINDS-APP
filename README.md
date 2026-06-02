@@ -7,6 +7,7 @@ def Start(color,what):
     Label('MENTAL HEALTH MATTERS!! ', 200, 100, size=12, font ='montserrat',visible=what)
 Start('yellow',True)
 
+
 #Angry
 Angry1 =Circle(75,300,40,fill = 'coral'),
 Angry2 = Circle(72,290,40,fill='orangeRed')
