@@ -86,6 +86,12 @@ nervSkills =[
     "Slow breathing: in 4, out 6",
     "Stretch your shoulders"
     ]
+#index counter
+sadIndex = 0
+angryIndex = 0
+nervIndex = 0
+    
+    
 def hideAllScreens():
     homeScreen.visible = False
     angryScreen.visible =False
