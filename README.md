@@ -133,3 +133,10 @@ def onMousePress(x,y):
         reset.visible =True
         nervScreen.visible = True
         reset.toFront()
+
+    #offering advice 
+    if sadScreen.visible and sadScreen.contains(x,y):
+        for i in range(len(sadSkills)):
+            if i == sadIndex:
+                sadSkillLabel.value = sadSkills[i]
+        sadIndex = (sadIndex +1)%len(sadSkills)
