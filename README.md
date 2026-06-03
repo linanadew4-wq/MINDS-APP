@@ -49,6 +49,7 @@ A mental health mood tracking application that provides emotional support and co
 ## Technologies Used
 
 - Python-based graphics application
+- CMU CS Academy
 
 ## Getting Started
 
