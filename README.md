@@ -90,7 +90,15 @@ nervSkills =[
 sadIndex = 0
 angryIndex = 0
 nervIndex = 0
-    
+#lables for emotions 
+sadSkillLabel = Label("",200,250,size=16,font='montserrat')
+sadScreen.add(sadSkillLabel)
+
+angrySkillLabel = Label("",200,250,size=16,font='montserrat')
+angryScreen.add(angrySkillLabel)
+
+nervSkillLabel = Label("",200,250,size=16,font='montserrat')
+nervScreen.add(nervSkillLabel)  
     
 def hideAllScreens():
     homeScreen.visible = False
