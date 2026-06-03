@@ -108,6 +108,7 @@ def hideAllScreens():
     moodButtons.visible=False
     
 def onMousePress(x,y):
+    global sadIndex,angryIndex,nervIndex
     # reset
     if reset.contains(x,y):
         hideAllScreens()
