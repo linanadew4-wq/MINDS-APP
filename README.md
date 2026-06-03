@@ -82,13 +82,16 @@ def onMousePress(x,y):
         hideAllScreens()
         reset.visible =True
         sadScreen.visible = True
+        reset.toFront()
     #angry
     elif moodButtons.children[1].contains(x,y):
         hideAllScreens()
         reset.visible =True
         angryScreen.visible = True
+        reset.toFront()
     #nerv
     elif moodButtons.children[7].contains(x,y):
         hideAllScreens()
         reset.visible =True
         nervScreen.visible = True
+        reset.toFront()
