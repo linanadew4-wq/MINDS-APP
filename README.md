@@ -10,7 +10,8 @@ def Start():
 homeScreen = Group(
     Rect(0,0,400,400,fill='yellow'),
     Label('Welcome to the Mood tracking APP!', 200, 36, size=16, font ='montserrat'),
-    Label('MENTAL HEALTH MATTERS!! ', 200, 100, size=12, font ='montserrat')
+    Label('MENTAL HEALTH MATTERS!! ', 200, 100, size=12, font ='montserrat'),
+    Label('Call 911 In Case of Emergency ', 200, 380, size=12,bold=True, font ='montserrat')
 )
 
 moodButtons = Group(
@@ -140,3 +141,15 @@ def onMousePress(x,y):
             if i == sadIndex:
                 sadSkillLabel.value = sadSkills[i]
         sadIndex = (sadIndex +1)%len(sadSkills)
+    if angryScreen.visible and angryScreen.contains(x,y):
+        for i in range(len(angrySkills)):
+            if i == angryIndex:
+                angrySkillLabel.value = angrySkills[i]
+        angryIndex = (angryIndex + 1)%len(angrySkills)
+        
+    if nervScreen.visible and nervScreen.contains(x,y):
+        for i in range(len(nervSkills)):
+            if i == nervIndex:
+                nervSkillLabel.value = nervSkills[i]
+        nervIndex = (nervIndex +1)%len(nervSkills)
+
