@@ -25,14 +25,12 @@ moodButtons = Group(
     Circle(310,300,40,fill = 'paleGreen'),
     Circle(307,290,40,fill='lime'),
     Label('ANXIOUS',307,290,size=13, bold = True)
-
-    )
+                   )
 reset = Group(
     Rect(25,13,77,33,fill='darkSlateBlue'),
     Polygon(36, 30, 53, 18 ,53,40,fill='orange'),
     Line(50,30,88,30,lineWidth=9,fill='orange')
-             
-    )
+             )
 reset.visible = False
 
 sadScreen = Group(
@@ -42,8 +40,7 @@ sadScreen = Group(
     Label(' Skills ', 110, 134, size= 17, font ='montserrat'),
     Label('Bad Coping', 297, 110, size= 17, font ='montserrat'),
     Label(' Skills ', 297, 134, size= 17, font ='montserrat')
-    
-    )
+                 )
 sadScreen.visible=False
 
 angryScreen = Group(
@@ -53,7 +50,7 @@ angryScreen = Group(
     Label(' Skills ', 110, 134, size= 17, font ='montserrat'),
     Label('Bad Coping', 297, 110, size= 17, font ='montserrat'),
     Label(' Skills ', 297, 134, size= 17, font ='montserrat')
-    )
+                    )
 angryScreen.visible=False
 
 nervScreen=Group (
@@ -63,8 +60,7 @@ nervScreen=Group (
     Label(' Skills ', 110, 134, size= 17, font ='montserrat'),
     Label('Bad Coping', 297, 110, size= 17, font ='montserrat'),
     Label(' Skills ', 297, 134, size= 17, font ='montserrat')
-    
-    )
+                )
 nervScreen.visible = False
 
 def hideAllScreens():
