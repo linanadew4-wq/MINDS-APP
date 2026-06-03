@@ -4,6 +4,9 @@ def Start():
     homeScreen.visible = True
     moodButtons.visible = True
     reset.visible =False
+    sadSkillLable.value=""
+    angrySkillLable.value=""
+    nervSkillLable.value=""
 homeScreen = Group(
     Rect(0,0,400,400,fill='yellow'),
     Label('Welcome to the Mood tracking APP!', 200, 36, size=16, font ='montserrat'),
@@ -36,30 +39,30 @@ reset.visible = False
 sadScreen = Group(
     Rect(0,0,400,400,fill='powderBlue'),
     Label('Sadness', 200, 36, size=20, font ='montserrat'),
-    Label('Good Coping', 110, 110, size= 17, font ='montserrat'),
-    Label(' Skills ', 110, 134, size= 17, font ='montserrat'),
-    Label('Bad Coping', 297, 110, size= 17, font ='montserrat'),
-    Label(' Skills ', 297, 134, size= 17, font ='montserrat')
+    Label('Advice', 110, 110, size= 17, font ='montserrat'),
+    Label(' To help you! ', 110, 134, size= 17, font ='montserrat'),
+    Label('Click the Screen', 297, 110, size= 17, font ='montserrat'),
+    Label(' To go to the next advice!', 297, 134, size= 13, font ='montserrat')
                  )
 sadScreen.visible=False
 
 angryScreen = Group(
     Rect(0,0,400,400,fill='orangeRed'),
     Label('Anger', 200, 36, size=20, font ='montserrat'),
-    Label('Good Coping', 110, 110, size= 17, font ='montserrat'),
-    Label(' Skills ', 110, 134, size= 17, font ='montserrat'),
-    Label('Bad Coping', 297, 110, size= 17, font ='montserrat'),
-    Label(' Skills ', 297, 134, size= 17, font ='montserrat')
+    Label('Advice', 110, 110, size= 17, font ='montserrat'),
+    Label(' To help you! ', 110, 134, size= 17, font ='montserrat'),
+    Label('Click the Screen', 297, 110, size= 17, font ='montserrat'),
+    Label(' To go to the next advice!', 297, 134, size= 13, font ='montserrat')
                     )
 angryScreen.visible=False
 
 nervScreen=Group (
     Rect(0,0,400,400,fill='lime'),
     Label('Anxiety', 200, 36, size=20, font ='montserrat'),
-    Label('Good Coping', 110, 110, size= 17, font ='montserrat'),
-    Label(' Skills ', 110, 134, size= 17, font ='montserrat'),
-    Label('Bad Coping', 297, 110, size= 17, font ='montserrat'),
-    Label(' Skills ', 297, 134, size= 17, font ='montserrat')
+    Label('Advice', 110, 110, size= 17, font ='montserrat'),
+    Label(' To help you! ', 110, 134, size= 17, font ='montserrat'),
+    Label('Click the Screen', 297, 110, size= 17, font ='montserrat'),
+    Label(' To go to the next advice!', 297, 134, size= 13, font ='montserrat')
                 )
 nervScreen.visible = False
 
