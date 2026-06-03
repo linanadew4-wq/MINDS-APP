@@ -65,7 +65,27 @@ nervScreen=Group (
     Label(' To go to the next advice!', 297, 134, size= 13, font ='montserrat')
                 )
 nervScreen.visible = False
+#list for advice 
 
+sadSkills = [
+    "Take deep breaths",
+    "Talk to someone you trust",
+    "Write your feelings down",
+    "Go for a short walk "
+    ]
+    
+angrySkills = [
+    "Count to 10 slowly :) ",
+    "Take a break from the situation ",
+    "Squeeze a stress ball",
+    "Drink cold water"
+    ]
+nervSkills =[
+    "Name what you can control",
+    "Try grounding yourself: 5-4-3-2-1",
+    "Slow breathing: in 4, out 6",
+    "Stretch your shoulders"
+    ]
 def hideAllScreens():
     homeScreen.visible = False
     angryScreen.visible =False
