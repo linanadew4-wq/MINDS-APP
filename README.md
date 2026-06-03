@@ -1,5 +1,5 @@
 # MINDS-APP
-Mental Health  
+# Mental Health  
 def Start():
     homeScreen.visible = True
     moodButtons.visible = True
