@@ -14,7 +14,6 @@ homeScreen = Group(
     Label('Call 911 In Case of Emergency ', 200, 380, size=12 ,bold=True, font ='montserrat'),
     Rect(24,170,246,50,fill='lavender'),
     Label('Click a button to get started! ', 150, 192, size=16, font ='montserrat')
-
 )
 
 endScreen = Group(
